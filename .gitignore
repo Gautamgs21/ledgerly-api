@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.*
+.vercel/
+# Seed files contain your members' PIN hashes and transactions. NEVER commit them.
+seed/

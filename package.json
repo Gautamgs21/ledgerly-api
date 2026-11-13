@@ -1,0 +1,14 @@
+{
+  "name": "ledgerly-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LEDGERLY backend: Vercel serverless function + MongoDB",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/api.test.js",
+    "import": "node scripts/import.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.10.0"
+  }
+}
